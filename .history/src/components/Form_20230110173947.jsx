@@ -1,7 +1,6 @@
 import Button from './Button';
 import InputType from './InputType';
 
-// eslint-disable-next-line react/prop-types
 const Form = ({ title }) => (
   <form action="" className="flex flex-col gap-4">
     <InputType

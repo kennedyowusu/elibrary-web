@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import ForgetPassword from './Pages/authentication/ForgetPassword';
+import ForgetPassword from './Pages/authentication/ForgetPassword.js';
 import Login from './Pages/authentication/Login';
 import Registration from './Pages/authentication/Registration';
 
