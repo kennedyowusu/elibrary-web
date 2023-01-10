@@ -6,14 +6,9 @@ module.exports = {
       sm: '480px',
       md: '768px',
       lg: '976px',
-      xl: '1440px',
+      xl: '1280px',
     },
-    extend: {
-      colors: {
-        primary: '#317773',
-        secondary: '#E2D1F9',
-      },
-    },
+    extend: {},
   },
   plugins: [],
 };
