@@ -25,13 +25,13 @@ const Navbar = () => {
   ];
   return (
     <nav className="shadow-md w-full fixed top-0 left-0">
-      <div className="md:flex items-center justify-between bg-white py-4 md:py-5 px-14">
+      <div className="md:flex bg-white py-4 md:py-10 px-14">
         <div className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800">
           <img src={Logo} alt="Logo" className="w-10 h-10" />
         </div>
 
         <div className="flex items-center justify-end w-full">
-          <ul className="md:flex md:items-center flex gap-4">
+          <ul className="flex gap-4">
             {navLink.map((link) => (
               <li
                 key={link.name}

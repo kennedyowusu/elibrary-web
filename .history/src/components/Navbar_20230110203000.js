@@ -31,7 +31,7 @@ const Navbar = () => {
         </div>
 
         <div className="flex items-center justify-end w-full">
-          <ul className="md:flex md:items-center flex gap-4">
+          <ul className="md:flex flex gap-4">
             {navLink.map((link) => (
               <li
                 key={link.name}
