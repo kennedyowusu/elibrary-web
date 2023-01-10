@@ -2,13 +2,13 @@ import React from 'react'
 import loginImage from '../../assets/library.png'
 import Button from '../../components/Button'
 import Form from '../../components/Form'
+import 
 
 const Login = () => {
   return (
     <section className='bg-gray-50 min-h-screen flex items-center justify-center'>
       {/* Login Container */}
       <div className='bg-gray-100 flex rounded-xl shadow-lg max-w-3xl p-5'>
-        <h1>Welcome to Edu</h1>
         {/* Login Form */}
         <div className='sm:w-1/2 px-8'>
           <h1 className='text-3xl font-bold text-black-800 pb-2'>
