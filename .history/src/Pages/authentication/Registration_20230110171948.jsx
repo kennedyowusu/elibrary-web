@@ -2,7 +2,6 @@ import React from 'react'
 import loginImage from '../../assets/library.png'
 import Button from '../../components/Button'
 import Form from '../../components/Form'
-import { Link } from 'react-router-dom'
 
 const Registration = () => {
   return (

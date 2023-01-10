@@ -6,9 +6,10 @@ import Registration from './Pages/authentication/Registration.jsx';
 function App() {
   return (
     <div className='App'>
+      {/* <ForgetPassword /> */}
       <Routes>
-        <Route path='/login' element={<Login />} />
-        <Route path='/register' element={<Registration />} />
+        <Route path='/' element={<Login />} />
+        <Route path='/registration' element={<Registration />} />
         <Route path='/forgot-password' element={<ForgetPassword />} />
       </Routes>
     </div>

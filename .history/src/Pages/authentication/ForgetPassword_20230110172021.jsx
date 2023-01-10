@@ -1,8 +1,7 @@
-import React from 'react';
-import loginImage from '../../assets/library.png';
-import Button from '../../components/Button';
-import InputType from '../../components/InputType';
-import { Link } from 'react-router-dom';
+import React from 'react'
+import loginImage from '../../assets/library.png'
+import Button from '../../components/Button'
+import InputType from '../../components/InputType'
 
 const ForgetPassword = () => {
   return (
@@ -17,6 +16,7 @@ const ForgetPassword = () => {
           <p className='text-lg mt-4'>Enter your email to reset password</p>
 
           <form action='' className='flex flex-col gap-4'>
+            
             <InputType
               className='p-2 rounded border mt-8'
               type='email'
@@ -34,13 +34,12 @@ const ForgetPassword = () => {
           <div className='flex gap-4 mt-10 items-center justify-center text-gray-500'>
             <p className='text-sm mt-4'>Don't want to reset password?</p>
 
-            <Link to='/login'>
-              <Button
-                title='Login'
-                type='submit'
-                className='bg-[#317773] text-white px-4 py-2 rounded-md mt-4 font-bold'
-              />
-            </Link>
+            <Button
+              title='Login'
+              type='submit'
+              className='bg-[#317773] text-white px-4 py-2 rounded-md mt-4 font-bold'
+              
+            />
           </div>
         </div>
 

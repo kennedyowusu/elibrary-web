@@ -2,7 +2,6 @@ import React from 'react'
 import loginImage from '../../assets/library.png'
 import Button from '../../components/Button'
 import Form from '../../components/Form'
-import { Link } from 'react-router-dom'
 
 const Registration = () => {
   return (
@@ -18,13 +17,12 @@ const Registration = () => {
 
           <div className='flex gap-4 mt-10 items-center justify-center text-gray-500'>
             <p className='text-sm mt-4'>Already have an account?</p>
-            <Link to='/login'>
-              <Button
-                title='Login'
-                type='submit'
-                className='bg-[#317773] text-white px-4 py-2 rounded-md mt-4 font-bold'
-              />
-            </Link>
+            <Button
+              title='Login'
+              type='submit'
+              className='bg-[#317773] text-white px-4 py-2 rounded-md mt-4 font-bold'
+              link={{
+            />
           </div>
         </div>
 
