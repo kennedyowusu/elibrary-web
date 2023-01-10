@@ -27,7 +27,7 @@ const Login = () => (
         </div>
 
         <div className="flex gap-4 mt-10 items-center justify-center text-gray-500">
-          <p className="text-sm mt-4">Don`t have an account?</p>
+          <p className="text-sm mt-4">Dont have an account?</p>
           <Link
             to="/register"
           >
