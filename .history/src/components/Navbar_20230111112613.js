@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { HiBars3, HiXMark } from 'react-icons/hi2';
+import { HiBars3 } from 'react-icons/hi2';
 import Logo from '../assets/library.png';
 import NavButton from './NavButton';
 
@@ -47,20 +47,14 @@ const Navbar = () => {
             {' '}
           </div>
           <div
-            onClick={handleClick}
+            onClick={}
             className="flex justify-end items-center md:hidden lg:hidden cursor-pointer text-2xl text-gray-800 hover:text-[#317773] hover:duration-500 mt-1"
           >
-            {!toggleNav ? (
-              <HiBars3 className="w-10 h-8" />
-            ) : (
-              <HiXMark className="w-10 h-8" />
-            )}
-
+            <HiBars3 className="w-10 h-8" />
           </div>
         </div>
 
         <div className="flex items-center justify-end w-full">
-
           <ul className="md:items-center gap-4 hidden md:flex lg:flex">
             {navLink.map((link) => (
               <li key={link.name} className="md:ml-8 text-xl">
@@ -88,16 +82,10 @@ const Navbar = () => {
               />
             </Link>
           </ul>
-
         </div>
       </div>
 
-      <ul
-        className={
-          toggleNav ? 'absolute bg-zinc-200 w-full px-8 gap-4' : 'hidden'
-        }
-      >
-        {/* 'absolute bg-zinc-200 w-full px-8 gap-4' */}
+      <ul className="absolute bg-zinc-200 w-full px-8 gap-4">
         {navLink.map((link) => (
           <li
             key={link.name}

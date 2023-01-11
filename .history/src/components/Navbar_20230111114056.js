@@ -47,7 +47,7 @@ const Navbar = () => {
             {' '}
           </div>
           <div
-            onClick={handleClick}
+            // onClick={handleClick}
             className="flex justify-end items-center md:hidden lg:hidden cursor-pointer text-2xl text-gray-800 hover:text-[#317773] hover:duration-500 mt-1"
           >
             {!toggleNav ? (
