@@ -103,7 +103,7 @@ const Navbar = () => {
           <Link to="/login">
             <NavButton
               title="Login"
-              className="bg-transparent text-[#317773] px-8 py-3 w-full rounded-md font-bold hover:duration-500 hover:bg-[#fff] hover:text-[#317773] border-2 border-[#317773]"
+              className="bg-transparent border-[#317773] px-8 py-3 w-full  rounded-md mt-[-6px] font-bold hover:duration-500 hover:bg-[#317773] text-[#317773] hover:text-white"
             />
           </Link>
 

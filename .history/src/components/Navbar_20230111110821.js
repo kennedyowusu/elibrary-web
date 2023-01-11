@@ -99,20 +99,18 @@ const Navbar = () => {
           </li>
         ))}
 
-        <div className=" flex flex-col gap-4 mb-5">
-          <Link to="/login">
+        <div className=" flex flex-col gap-5 mb-5">
+          <Link to="/login>
             <NavButton
               title="Login"
-              className="bg-transparent text-[#317773] px-8 py-3 w-full rounded-md font-bold hover:duration-500 hover:bg-[#fff] hover:text-[#317773] border-2 border-[#317773]"
+              className="border-2 px-6 py-2 rounded-md mt-[-6px] font-bold hover:duration-500 hover:bg-[#317773] text-[#317773] hover:text-white"
             />
           </Link>
-
-          <hr className="border-b-2 border-zinc-300 w-full" />
 
           <Link to="register">
             <NavButton
               title="Register"
-              className="bg-[#317773] text-white px-8 py-3 w-full rounded-md font-bold hover:duration-500 hover:bg-[#fff] hover:text-[#317773] border-2 border-[#317773]"
+              className="bg-[#317773] text-white px-8 py-2 rounded-md mt-[-6px] font-bold hover:duration-500 hover:bg-[#fff] hover:text-[#317773] border-2 border-[#317773]"
             />
           </Link>
         </div>
