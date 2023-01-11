@@ -10,10 +10,10 @@ function App() {
     <div className="bg-[#ccc]-600 w-full h-screen">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="login" element={<Login />} />
-        <Route path="register" element={<Registration />} />
-        <Route path="forgot-password" element={<ForgetPassword />} />
+        
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Registration />} />
+        <Route path="/forgot-password" element={<ForgetPassword />} />
       </Routes>
     </div>
   );

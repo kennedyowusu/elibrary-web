@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { HiBars3, HiXMark } from 'react-icons/hi2';
 import Logo from '../assets/library.png';
 import NavButton from './NavButton';
@@ -99,6 +99,7 @@ const Navbar = () => {
           toggleNav ? 'absolute bg-zinc-200 w-full px-8 gap-4' : 'hidden'
         }
       >
+        {/* 'absolute bg-zinc-200 w-full px-8 gap-4' */}
         {navLink.map((link) => (
           <li
             key={link.name}

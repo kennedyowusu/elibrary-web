@@ -18,7 +18,7 @@ const Login = () => (
         <div>
           <p className="text-sm mt-4 text-right pt-3 text-black-500">
             {' '}
-            <NavLink to="/forgot-password">Forgot Password?</NavLink>
+            <Link to="/forgot-password">Forgot Password?</Link>
           </p>
 
           <hr className="border-b mt-6" />
@@ -26,7 +26,7 @@ const Login = () => (
 
         <div className="flex gap-4 mt-10 items-center justify-center text-gray-500">
           <p className="text-sm mt-4">Don`t have an account?</p>
-          <NavLink
+          <Link
             to="/register"
           >
             <Button
@@ -34,7 +34,7 @@ const Login = () => (
               type="submit"
               className="bg-[#317773] text-white px-4 py-2 rounded-md mt-4 font-bold"
             />
-          </NavLink>
+          </Link>
         </div>
       </div>
 

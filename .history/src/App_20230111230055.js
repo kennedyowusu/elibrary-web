@@ -8,7 +8,6 @@ import Home from './Pages/home/Home';
 function App() {
   return (
     <div className="bg-[#ccc]-600 w-full h-screen">
-      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="login" element={<Login />} />

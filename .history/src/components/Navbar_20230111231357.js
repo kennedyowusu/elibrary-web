@@ -99,6 +99,7 @@ const Navbar = () => {
           toggleNav ? 'absolute bg-zinc-200 w-full px-8 gap-4' : 'hidden'
         }
       >
+        {/* 'absolute bg-zinc-200 w-full px-8 gap-4' */}
         {navLink.map((link) => (
           <li
             key={link.name}

@@ -99,6 +99,7 @@ const Navbar = () => {
           toggleNav ? 'absolute bg-zinc-200 w-full px-8 gap-4' : 'hidden'
         }
       >
+        {/* 'absolute bg-zinc-200 w-full px-8 gap-4' */}
         {navLink.map((link) => (
           <li
             key={link.name}
@@ -116,7 +117,7 @@ const Navbar = () => {
         ))}
 
         <div className=" flex flex-col gap-4 mb-5">
-          <Link to="login">
+          <Link to="/login">
             <NavButton
               title="Login"
               className="bg-transparent text-[#317773] px-8 py-3 w-full rounded-md font-bold hover:duration-500 hover:bg-[#fff] hover:text-[#317773] border-2 border-[#317773]"
