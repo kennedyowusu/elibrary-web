@@ -37,7 +37,7 @@ const Login = () => (
           </Link>
         </div>
       </div>
-
+      
       <div className="w-1/2 sm:block hidden">
         <img src={loginImage} alt="Login" />
       </div>

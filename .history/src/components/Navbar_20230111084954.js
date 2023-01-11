@@ -46,7 +46,7 @@ const Navbar = () => {
                   {link.name}
                 </a>
               </li>
-            ))}
+            ),)}
             <Link to="/login" className="ml-8 mr-4">
               <NavButton
                 title="Login"
@@ -61,6 +61,12 @@ const Navbar = () => {
               />
             </Link>
           </ul>
+          {/* <a
+              href="/forgot-password"
+              className="text-gray-800 font-bold text-lg"
+            >
+              Forgot Password
+            </a> */}
         </div>
       </div>
     </nav>

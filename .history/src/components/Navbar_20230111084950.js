@@ -61,6 +61,12 @@ const Navbar = () => {
               />
             </Link>
           </ul>
+          {/* <a
+              href="/forgot-password"
+              className="text-gray-800 font-bold text-lg"
+            >
+              Forgot Password
+            </a> */}
         </div>
       </div>
     </nav>

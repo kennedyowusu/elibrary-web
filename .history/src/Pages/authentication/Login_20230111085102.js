@@ -6,7 +6,9 @@ import Form from '../../components/Form';
 
 const Login = () => (
   <section className="bg-gray-50 min-h-screen flex items-center justify-center">
+   
     <div className="bg-gray-100 flex rounded-xl shadow-lg max-w-3xl p-5">
+     
       <div className="sm:w-1/2 px-8">
         <h1 className="text-3xl font-bold text-black-800 pb-2">
           Welcome Back
@@ -38,6 +40,7 @@ const Login = () => (
         </div>
       </div>
 
+      {/* Right Side */}
       <div className="w-1/2 sm:block hidden">
         <img src={loginImage} alt="Login" />
       </div>

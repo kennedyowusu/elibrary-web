@@ -40,7 +40,7 @@ const Navbar = () => {
                 <a
                   href={link ? link.link : '/'}
                   className="text-gray-800 font-medium text-lg hover:border-solid border-2 p-2 rounded-lg
-                border-transparent hover:border-[#ccc] hover:text-bold hover:duration-500
+               border-transparent hover:border-[#ccc] hover:text-bold hover:duration-500
                 "
                 >
                   {link.name}
@@ -61,6 +61,12 @@ const Navbar = () => {
               />
             </Link>
           </ul>
+          {/* <a
+              href="/forgot-password"
+              className="text-gray-800 font-bold text-lg"
+            >
+              Forgot Password
+            </a> */}
         </div>
       </div>
     </nav>
