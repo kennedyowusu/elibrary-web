@@ -35,11 +35,12 @@ const Navbar = () => {
     <nav className="shadow-md w-full fixed top-0 left-0">
       <div className="md:flex items-center justify-between bg-white py-4 md:py-5 px-14">
         <div className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800">
-          <img src={Logo} alt="Logo" className="w-10 h-10 ml-2 mr-3" />
+          <img src={Logo} alt="Logo" className="w-12 h-10 ml-2 mr-3" />
           <span className="text-[#317773]">Edu</span>
           {' '}
           Library
           {' '}
+          {/* <img src={Logo} alt="Logo" className="w-15 h-12" /> */}
         </div>
 
         <div className="flex items-center justify-end w-full">

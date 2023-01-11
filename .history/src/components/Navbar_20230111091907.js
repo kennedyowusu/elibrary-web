@@ -40,6 +40,7 @@ const Navbar = () => {
           {' '}
           Library
           {' '}
+          {/* <img src={Logo} alt="Logo" className="w-15 h-12" /> */}
         </div>
 
         <div className="flex items-center justify-end w-full">
