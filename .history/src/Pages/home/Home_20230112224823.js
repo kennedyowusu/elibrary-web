@@ -7,7 +7,7 @@ const Home = () => (
     <Navbar />
     <section>
       <div class='min-h-screen sm:p-10 p-5 lg:px-10 bg-red-50'>
-        <div class='min-h-screen max-w-5xl mx-auto place-content-center justify-center justify-items-center grid md:grid-cols-2 lg:grid-cols-3 gap-x-14 gap-y-5'>
+        <div class='min-h-screen  mx-auto place-content-center justify-center justify-items-center grid md:grid-cols-2 lg:grid-cols-3 gap-x-14 gap-y-5'>
           
           <div class='bg-white shadow-lg rounded-xl overflow-hidden max-w-xs order-first lg:order-none'>
             <div>

@@ -6,9 +6,8 @@ const Home = () => (
   <>
     <Navbar />
     <section>
-      <div class='min-h-screen sm:p-10 p-5 lg:px-10 bg-red-50'>
-        <div class='min-h-screen max-w-5xl mx-auto place-content-center justify-center justify-items-center grid md:grid-cols-2 lg:grid-cols-3 gap-x-14 gap-y-5'>
-          
+      <div class='min-h-screen sm:p-10 p-5 lg:px-10 bg-gray-100'>
+        <div class='min-h-screen max-w-xl mx-auto place-content-center justify-center justify-items-center grid md:grid-cols-2 lg:grid-cols-3 gap-x-14 gap-y-5'>
           <div class='bg-white shadow-lg rounded-xl overflow-hidden max-w-xs order-first lg:order-none'>
             <div>
               <img
@@ -26,12 +25,38 @@ const Home = () => (
                 enim erat, vestibulum vel.
               </p>
 
-              <button className='my-5 w-full bg-teal-400 hover:bg-teal-500 text-white font-bold py-2 px-4 rounded-md'>
-                Request Book
-              </button>
+              <ul class='flex mt-8'>
+                <li>
+                  <img
+                    src='https://images.pexels.com/photos/89790/beauty-woman-portrait-face-89790.jpeg?crop=faces&fit=crop&h=200&w=200&auto=compress&cs=tinysrgb'
+                    alt='Face'
+                    class='rounded-full w-10 h-10 object-cover border-2 border-white'
+                  />
+                </li>
+                <li>
+                  <img
+                    src='https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&crop=faces&fit=crop&h=200&w=200'
+                    alt='Face'
+                    class='rounded-full w-10 h-10 object-cover border-2 border-white'
+                  />
+                </li>
+                <li>
+                  <img
+                    src='https://images.pexels.com/photos/769772/pexels-photo-769772.jpeg?auto=compress&cs=tinysrgb&crop=faces&fit=crop&h=200&w=200'
+                    alt='Face'
+                    class='rounded-full w-10 h-10 object-cover border-2 border-white'
+                  />
+                </li>
+                <li>
+                  <img
+                    src='https://images.pexels.com/photos/1102341/pexels-photo-1102341.jpeg?auto=compress&cs=tinysrgb&crop=faces&fit=crop&h=200&w=200'
+                    alt='Face'
+                    class='rounded-full w-10 h-10 object-cover border-2 border-white'
+                  />
+                </li>
+              </ul>
             </div>
           </div>
-
           <div class='bg-white shadow-lg rounded-xl overflow-hidden max-w-xs order-3 md:row-start-1 md:col-start-2 lg:order-none'>
             <div>
               <img
@@ -81,7 +106,6 @@ const Home = () => (
               </ul>
             </div>
           </div>
-
           <div class='bg-white shadow-lg rounded-xl overflow-hidden max-w-xs order-5 lg:order-none'>
             <div>
               <img

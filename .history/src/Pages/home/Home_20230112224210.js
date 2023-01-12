@@ -6,9 +6,8 @@ const Home = () => (
   <>
     <Navbar />
     <section>
-      <div class='min-h-screen sm:p-10 p-5 lg:px-10 bg-red-50'>
+      <div class='min-h-screen sm:p-10 p-5 lg:px-10 bg-gray-100'>
         <div class='min-h-screen max-w-5xl mx-auto place-content-center justify-center justify-items-center grid md:grid-cols-2 lg:grid-cols-3 gap-x-14 gap-y-5'>
-          
           <div class='bg-white shadow-lg rounded-xl overflow-hidden max-w-xs order-first lg:order-none'>
             <div>
               <img
@@ -26,12 +25,11 @@ const Home = () => (
                 enim erat, vestibulum vel.
               </p>
 
-              <button className='my-5 w-full bg-teal-400 hover:bg-teal-500 text-white font-bold py-2 px-4 rounded-md'>
+              <button className='w-full bg-teal-400 hover:bg-teal-500 text-white font-bold py-2 px-4 rounded-md'>
                 Request Book
               </button>
             </div>
           </div>
-
           <div class='bg-white shadow-lg rounded-xl overflow-hidden max-w-xs order-3 md:row-start-1 md:col-start-2 lg:order-none'>
             <div>
               <img
@@ -81,7 +79,6 @@ const Home = () => (
               </ul>
             </div>
           </div>
-
           <div class='bg-white shadow-lg rounded-xl overflow-hidden max-w-xs order-5 lg:order-none'>
             <div>
               <img
