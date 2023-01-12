@@ -1,0 +1,26 @@
+import React from 'react'
+import { useNavigate } from 'react-router-dom'
+import Button from '../components/Button'
+
+const NoMatch = () => {
+ const navigate = useNavigate()
+ return (
+   <section className='flex items-center justify-center '>
+     <h1 className='text-3xl font-bold text-black-800 pb-20 mt-44'>
+       Page Not Found 404
+     </h1>
+     <p className='text-lg mt-64'>
+       Sorry the page you are looking for does not exist or an other error
+       occurred.
+     </p>
+     <Button
+       title='Go Back'
+       type='submit'
+       className='bg-[#317773] text-white px-4 py-2 rounded-md mt-64 font-bold'
+       onClick={() => navigate('/')}
+     />
+   </section>
+ )
+}
+
+export default NoMatch
