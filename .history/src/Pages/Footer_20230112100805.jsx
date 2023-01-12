@@ -9,12 +9,12 @@ import { FaLinkedinIn } from 'react-icons/fa'
 const Footer = () => {
   return (
     <section>
-    <footer className='w-full h-36 bg-[#317773] text-white flex justify-between shadow-md fixed py-4 md:py-5 md:px-14 bottom-0 left-0'>
+      <footer className='w-full h-36 bg-[#317773] text-white flex justify-between shadow-md fixed py-4 md:py-5 md:px-14 bottom-0 left-0'>
         <div className='flex flex-col justify-start items-start space-y-4'>
           <h2 className='text-2xl font-bold'>Edu Library</h2>
           <address>
-            <a href='tel:+233 24 000 0000'>+233 25 632 5592</a> |{' '}
-            <a href='tel:+233 24 000 0000'>+233 25 632 5592</a> <br />
+            <a href='tel:+233 24 000 0000'>+233 20 000 0000</a> |{' '}
+            <a href='tel:+233 24 000 0000'>+233 24 000 0000</a> <br />
             <p className='text-l text-center'>
               West Legon Accra, Ghana Concord Royal Plaza
             </p>
@@ -62,15 +62,13 @@ const Footer = () => {
               <FaLinkedinIn className='mr-3' />
             </Link>
 
-            <Link to='https://www.instagram.com/owusukennedi/'>
-              <FaInstagram className='mr-3' />
-            </Link>
+       {/* <FaInstagram className='mr-3' /> */}
+       <L></L>
 
             <Link to='https://www.facebook.com/Kennediowusu/'>
               <FaFacebookF className='mr-3' />
             </Link>
           </div>
-
           <p className='text-sm text-center flex items-end'>
             {' '}
             &copy; 2022 Edu Library

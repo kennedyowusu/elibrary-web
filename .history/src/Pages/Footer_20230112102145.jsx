@@ -9,7 +9,9 @@ import { FaLinkedinIn } from 'react-icons/fa'
 const Footer = () => {
   return (
     <section>
-    <footer className='w-full h-36 bg-[#317773] text-white flex justify-between shadow-md fixed py-4 md:py-5 md:px-14 bottom-0 left-0'>
+    <footer className='w-full h-36 bg-[#317773] text-white flex justify-between shadow-md fixed py-4 md:py-5 md:px-14 bottom-0 left-0
+      md:
+      '>
         <div className='flex flex-col justify-start items-start space-y-4'>
           <h2 className='text-2xl font-bold'>Edu Library</h2>
           <address>
