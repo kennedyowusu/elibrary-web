@@ -7,17 +7,17 @@ import NoMatch from './Pages/NoMatch';
 
 function App() {
   return (
-    <div className='bg-[#ccc]-600 w-full h-screen'>
+    <div className="bg-[#ccc]-600 w-full h-screen">
       <Routes>
-        <Route path='/' element={<Home />}>
-          <Route path='*' element={<NoMatch />} />
+        <Route path="/" element={<Home />}>
+          <Route path="login" element={<Login />} />
+          <Route path="register" element={<Registration />} />
+          <Route path="forgot-password" element={<ForgetPassword />} />
+          <Route path="*" element={<NoMatch />} />
         </Route>
-        <Route path='login' element={<Login />} />
-        <Route path='register' element={<Registration />} />
-        <Route path='forgot-password' element={<ForgetPassword />} />
       </Routes>
     </div>
-  )
+  );
 }
 
 export default App;
