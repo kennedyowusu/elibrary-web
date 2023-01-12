@@ -4,10 +4,29 @@ import { HiBars3, HiXMark } from 'react-icons/hi2';
 import Logo from '../../assets/library.png'
 
 import NavButton from './NavButton';
-import navLink from './NavMenuList';
 
 const Navbar = () => {
   const navigate = useNavigate();
+  
+  const navLink = [
+    {
+      name: 'Home',
+      link: '/',
+    },
+    {
+      name: 'About',
+      link: '/about',
+    },
+    {
+      name: 'Dashboard',
+      link: '/dashboard',
+    },
+    {
+      name: 'Profile',
+      link: '/profile',
+    },
+
+  ];
 
   const [toggleNav, setToggleNav] = useState(false);
 

@@ -4,7 +4,7 @@ import { HiBars3, HiXMark } from 'react-icons/hi2';
 import Logo from '../../assets/library.png'
 
 import NavButton from './NavButton';
-import navLink from './NavMenuList';
+import navLink from './'
 
 const Navbar = () => {
   const navigate = useNavigate();

@@ -35,13 +35,13 @@ export const HELP = [
   { name: 'Open-source', link: '#' },
 ]
 
-export const Icons = [
-  { name: <FaGithub />, link: '#' },
-  { name: <FaFacebookF />, link: '#' },
-  { name: <FaTwitter />, link: '#' },
-  { name: <FaInstagram />, link: '#' },
-  { name: <FaLinkedinIn />, link: '#' },
-]
+  export const Icons = [
+    { name: <FaGithub />, link: '#' },
+    { name: <FaFacebookF />, link: '#' },
+    { name: <FaTwitter />, link: '#' },
+    { name: <FaInstagram />, link: '#' },
+    { name: <FaLinkedinIn />, link: '#' },
+  ]
 
 // export const Icons = [
 //   { name: 'logo-facebook', link: '#' },
