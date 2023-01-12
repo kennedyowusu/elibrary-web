@@ -5,7 +5,7 @@ import Button from '../components/Button'
 const NoMatch = () => {
  const navigate = useNavigate()
  return (
-   <section className='flex items-center justify-center'>
+   <section className='flex items-center justify-center '>
      <h1 className='text-3xl font-bold text-black-800 pb-20 mt-44'>
        Page Not Found 404
      </h1>

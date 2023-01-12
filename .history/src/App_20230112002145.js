@@ -1,5 +1,4 @@
 import { Routes, Route } from 'react-router-dom';
-import About from './Pages/About';
 import ForgetPassword from './Pages/authentication/ForgetPassword';
 import Login from './Pages/authentication/Login';
 import Registration from './Pages/authentication/Registration';
@@ -11,7 +10,7 @@ function App() {
     <div className='bg-[#ccc]-600 w-full h-screen'>
       <Routes>
         <Route path='/' element={<Home />}>
-          <Route path='about' element={<About />} />
+          
           <Route path='*' element={<NoMatch />} />
         </Route>
         <Route path='login' element={<Login />} />
