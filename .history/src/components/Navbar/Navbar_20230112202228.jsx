@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { HiBars3, HiXMark } from 'react-icons/hi2';
+import Logo from 'src/assets/library.png'
 import Logo from '../../assets/library.png'
 
 import NavButton from './NavButton';
