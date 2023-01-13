@@ -6,15 +6,14 @@ const Home = () => (
   <>
     <Navbar />
     <section>
-      <div class='min-h-screen sm:p-10 p-5 lg:px-10 bg-red-50'>
-        <div class='min-h-screen max-w-5xl mx-auto place-content-center justify-center justify-items-center grid md:grid-cols-2 lg:grid-cols-3 gap-x-14 gap-y-5 bg-red-600'>
-          
+      <div class='min-h-screen sm:p-10 p-5 lg:px-10 bg-gray-100'>
+        <div class='min-h-screen max-w-5xl mx-auto place-content-center justify-center justify-items-center grid md:grid-cols-2 lg:grid-cols-3 gap-x-14 gap-y-5'>
           <div class='bg-white shadow-lg rounded-xl overflow-hidden max-w-xs order-first lg:order-none'>
             <div>
               <img
                 src='https://images.pexels.com/photos/2156881/pexels-photo-2156881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
                 alt='Abstract Design'
-                class='w-full h-40 sm:h-48 object-cover'
+                class='w-full h-4 sm:h-48 object-cover'
               />
             </div>
             <div class='py-5 px-6 sm:px-8'>
@@ -31,7 +30,6 @@ const Home = () => (
               </button>
             </div>
           </div>
-
           <div class='bg-white shadow-lg rounded-xl overflow-hidden max-w-xs order-3 md:row-start-1 md:col-start-2 lg:order-none'>
             <div>
               <img
@@ -81,7 +79,6 @@ const Home = () => (
               </ul>
             </div>
           </div>
-
           <div class='bg-white shadow-lg rounded-xl overflow-hidden max-w-xs order-5 lg:order-none'>
             <div>
               <img

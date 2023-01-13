@@ -6,9 +6,31 @@ const Home = () => (
   <>
     <Navbar />
     <section>
-      <div class='min-h-screen sm:p-10 p-5 lg:px-10 bg-red-50'>
-        <div class='min-h-screen max-w-5xl mx-auto place-content-center justify-center justify-items-center grid md:grid-cols-2 lg:grid-cols-3 gap-x-14 gap-y-5 bg-red-600'>
-          
+      <div class='min-h-screen sm:p-10 p-5 lg:px-10 bg-gray-100'>
+        <div class='min-h-screen max-w-5xl mx-auto place-content-center justify-center justify-items-center grid md:grid-cols-2 lg:grid-cols-4 gap-x-14 gap-y-'>
+          <div class='bg-white shadow-lg rounded-xl overflow-hidden max-w-xs order-first lg:order-none'>
+            <div>
+              <img
+                src='https://images.pexels.com/photos/2156881/pexels-photo-2156881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
+                alt='Abstract Design'
+                class='w-full h-40 sm:h-48 object-cover'
+              />
+            </div>
+            <div class='py-5 px-6 sm:px-8'>
+              <h2 class='text-xl sm:text-2xl text-gray-800 font-semibold mb-3'>
+                Abstract Design
+              </h2>
+              <p class='text-gray-500 leading-relaxed'>
+                Lorem ipsum dolor sit amet, conse adipiscing elit. Phasellus
+                enim erat, vestibulum vel.
+              </p>
+
+              <button className='my-5 w-full bg-teal-400 hover:bg-teal-500 text-white font-bold py-2 px-4 rounded-md'>
+                Request Book
+              </button>
+            </div>
+          </div>
+
           <div class='bg-white shadow-lg rounded-xl overflow-hidden max-w-xs order-first lg:order-none'>
             <div>
               <img
