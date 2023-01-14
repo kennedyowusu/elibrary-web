@@ -8,7 +8,7 @@ import Layout from './appLayout/Layout'
 import NoMatch from './Pages/NoMatch'
 import Dashboard from './Pages/Dashboard'
 import Profile from './Pages/Profile'
-import Details from './Pages/details/Details'
+
 
 function App() {
   return (
