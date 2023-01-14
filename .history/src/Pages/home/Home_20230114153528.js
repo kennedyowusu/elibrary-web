@@ -2,6 +2,7 @@ import React from 'react'
 import { Outlet } from 'react-router-dom'
 import Navbar from '../../components/Navbar/Navbar'
 import CardContainer from '../home/CardContainer'
+import CardData from '../home/CardData'
 
 const Home = () => (
   <>
@@ -13,4 +14,4 @@ const Home = () => (
   </>
 )
 
-export default Home;
+export default Home

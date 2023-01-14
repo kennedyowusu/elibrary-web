@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom'
 const CardContainer = () => {
   const navigate = useNavigate()
   return (
+    // map over the CardData array and return a div for each item
     <div className='grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6'>
       {CardData.map((card, index) => {
         return (
