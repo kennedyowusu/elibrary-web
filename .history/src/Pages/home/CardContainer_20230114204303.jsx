@@ -24,7 +24,7 @@ const CardContainer = () => {
                 {card.desc}
               </p>
               <button className='button'
-                onClick={() => navigate(`/details/${card.id}`)}
+                
               >
                 View Details
               </button>
