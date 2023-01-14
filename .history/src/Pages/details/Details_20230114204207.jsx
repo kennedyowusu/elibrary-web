@@ -1,10 +1,8 @@
 import React from 'react'
-import { useParams, useNavigate } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import RichDad from '../../assets/rich-dad-poor-dad.png'
 
 const Details = () => {
- const { id } = useParams()
- const navigate = useNavigate();
   return (
     <section className='w-screen mt-28 mb-8 grid grid-cols-1 md:grid-cols-2 container mx-auto px-20'>
       {/* Divide page into two */}
@@ -33,7 +31,6 @@ const Details = () => {
         <button
           className='bg-teal-400 hover:bg-teal-500 duration-300 px-5 py-2.5 font-[Poppins]
             rounded-md text-white md:w-aut mt-4 w-full font-bold text-lg'
-          onClick={() => navigate(`/request/${id}`)}
         >
           Request Book
         </button>

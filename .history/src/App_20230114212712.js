@@ -9,7 +9,6 @@ import NoMatch from './Pages/NoMatch'
 import Dashboard from './Pages/Dashboard'
 import Profile from './Pages/Profile'
 import Details from './Pages/details/Details'
-import Request from './Pages/request/Request'
 
 function App() {
   return (
@@ -21,7 +20,7 @@ function App() {
           <Route path='dashboard' element={<Dashboard />} />
           <Route path='profile' element={<Profile />} />
           <Route path='details/:id' element={<Details />} />
-          <Route path='request/:id' element={<Request />} />
+          <Route path='request' element={<Request />} />
           <Route path='*' element={<NoMatch />} />
           <Route path='login' element={<Login />} />
           <Route path='register' element={<Registration />} />

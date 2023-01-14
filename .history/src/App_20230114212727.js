@@ -21,7 +21,7 @@ function App() {
           <Route path='dashboard' element={<Dashboard />} />
           <Route path='profile' element={<Profile />} />
           <Route path='details/:id' element={<Details />} />
-          <Route path='request/:id' element={<Request />} />
+          <Route path='request' element={<Request />} />
           <Route path='*' element={<NoMatch />} />
           <Route path='login' element={<Login />} />
           <Route path='register' element={<Registration />} />

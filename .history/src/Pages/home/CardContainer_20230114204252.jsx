@@ -5,7 +5,7 @@ import { useNavigate, useParams } from 'react-router-dom'
 const CardContainer = () => {
   const navigate = useNavigate()
   const { id } = useParams()
-
+  
   return (
     <div className='grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6'>
       {CardData.map((card, index) => {
@@ -23,9 +23,7 @@ const CardContainer = () => {
               <p className='text-gray-500 leading-relaxed text-justify'>
                 {card.desc}
               </p>
-              <button className='button'
-                onClick={() => navigate(`/details/${card.id}`)}
-              >
+              <button className='button' onClick={() => navigate('/services')}>
                 View Details
               </button>
             </div>
