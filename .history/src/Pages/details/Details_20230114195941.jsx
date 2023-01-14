@@ -21,11 +21,11 @@ const Details = () => {
           adipisicing elit. Quisquam voluptates, quod, quia, voluptate quae
           voluptatem quas quibusdam voluptatum quidem quos nemo. Quisquam, quae.
           Quisquam, quae. Quisquam, quae. Quisquam, quae.
-        </p>
-
-     <p className="
-     text-teal-400 font-bold text-lg mt-4 mb-4 flex items-center opacity-80 justify-end 
-        ">Available</p>
+     </p>
+     
+     <p>
+      A
+     </p>
 
         <button
           className='bg-teal-400 hover:bg-teal-500 duration-300 px-5 py-2.5 font-[Poppins]

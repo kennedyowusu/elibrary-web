@@ -21,12 +21,15 @@ const Details = () => {
           adipisicing elit. Quisquam voluptates, quod, quia, voluptate quae
           voluptatem quas quibusdam voluptatum quidem quos nemo. Quisquam, quae.
           Quisquam, quae. Quisquam, quae. Quisquam, quae.
-        </p>
+     </p>
+     {/* Add checkout box here */}
 
-     <p className="
-     text-teal-400 font-bold text-lg mt-4 mb-4 flex items-center opacity-80 justify-end 
-        ">Available</p>
-
+        <div class="form-check">
+      <input class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="checkbox" value="" id="flexCheckDefault" />
+      <label class="form-check-label inline-block text-gray-800" for="flexCheckDefault">
+        Default checkbox
+      </label>
+    </div>
         <button
           className='bg-teal-400 hover:bg-teal-500 duration-300 px-5 py-2.5 font-[Poppins]
             rounded-md text-white md:w-aut mt-4 w-full font-bold text-lg'

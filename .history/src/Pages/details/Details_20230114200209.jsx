@@ -24,7 +24,7 @@ const Details = () => {
         </p>
 
      <p className="
-     text-teal-400 font-bold text-lg mt-4 mb-4 flex items-center opacity-80 justify-end 
+     text-teal-400 font-bold text-lg mt-4 mb-4 flex items-center opacity-80 
         ">Available</p>
 
         <button
