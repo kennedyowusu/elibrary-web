@@ -3,8 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom'
 import RichDad from '../../assets/rich-dad-poor-dad.png'
 
 const Details = () => {
- const { id } = useParams()
- const navigate = useNavigate();
+  const { id } = useParams()
   return (
     <section className='w-screen mt-28 mb-8 grid grid-cols-1 md:grid-cols-2 container mx-auto px-20'>
       {/* Divide page into two */}
