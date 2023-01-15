@@ -5,7 +5,7 @@ const Request = () => {
   return (
     <section>
       <div className='flex w-full min-h-screen justify-center items-center'>
-        <div className='flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 bg-teal-500 w-full max-w-4xl p-8 rounded-xl shadow-lg text-white md:mb-6 md:mt-24 sm:p-12 md:m-12 sm:m-5 sm:mt-24 overflow-hidden'>
+        <div className='flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 bg-teal-500 w-full max-w-4xl p-8 rounded-xl shadow-lg text-white md:mb-6 md:mt-24 sm:p-12 md:m-12 sm:m-5 sm:mt-24 xm: overflow-hidden'>
           <div className='flex flex-col space-y-8 justify-between'>
             <div>
               <h1 className='font-bold text-4xl tracking-wide'>Edu Library</h1>

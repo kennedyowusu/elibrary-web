@@ -5,7 +5,7 @@ const Request = () => {
   return (
     <section>
       <div className='flex w-full min-h-screen justify-center items-center'>
-        <div className='flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 bg-teal-500 w-full max-w-4xl p-8 rounded-xl shadow-lg text-white md:mb-6 md:mt-24 sm:p-12 md:m-12 sm:m-5 sm:mt-24 overflow-hidden'>
+        <div className='flex flex-col space-y-6 bg-teal-500 w-full max-w-4xl p-8 rounded-xl shadow-lg text-white'>
           <div className='flex flex-col space-y-8 justify-between'>
             <div>
               <h1 className='font-bold text-4xl tracking-wide'>Edu Library</h1>
@@ -47,11 +47,9 @@ const Request = () => {
             </div>
           </div>
 
-          <div className='relative'>
-            <div className='absolute z-0 w-40 h-40 bg-teal-200 rounded-full -right-28 -top-28'></div>
-            <div className='absolute z-0 w-40 h-40 bg-teal-200 rounded-full -left-28 -bottom-28'></div>
-            <div className='relative z-10 bg-white rounded-xl shadow-lg p-8 text-gray-600 md:w-[21rem]'>
-              <form action='' method='post' className='flex flex-col space-y-4'>
+          <div>
+            <div className='bg-white rounded-xl shadow-lg p-8'>
+              <form action='' method='post' className='flex flex-col space-y-4 mb-10'>
                 <div>
                   <label
                     htmlFor='name'
@@ -63,7 +61,7 @@ const Request = () => {
                     type='text'
                     name='name'
                     id='name'
-                    className='w-full border-2 border-gray-200 rounded-xl p-2 mt-2 focus:outline-none focus:border-teal-500'
+                    className='w-full border-2 border-gray-200 rounded-xl p-2 focus:outline-none focus:border-teal-500'
                     placeholder='Full Name'
                   />
                 </div>
@@ -79,7 +77,7 @@ const Request = () => {
                     type='text'
                     name='name'
                     id='name'
-                    className='w-full border-2 border-gray-200 rounded-xl p-2 mt-2 focus:outline-none focus:border-teal-500'
+                    className='w-full border-2 border-gray-200 rounded-xl p-2 focus:outline-none focus:border-teal-500'
                     placeholder='Full Name'
                   />
                 </div>
@@ -95,13 +93,10 @@ const Request = () => {
                     type='text'
                     name='name'
                     id='name'
-                    className='w-full border-2 border-gray-200 rounded-xl p-2 mt-2 focus:outline-none focus:border-teal-500'
+                    className='w-full border-2 border-gray-200 rounded-xl p-2 focus:outline-none focus:border-teal-500'
                     placeholder='Full Name'
                   />
                 </div>
-                <button className='inline-block w-full h-10 bg-teal-500 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm'>
-                  <span className='text-white font-bold'>Place Request</span>
-                </button>
               </form>
             </div>
           </div>
