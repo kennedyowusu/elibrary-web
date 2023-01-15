@@ -8,7 +8,7 @@ const navLink = [
     link: '/about',
   },
   {
-    name: 'Requested',
+    name: 'Requested Books',
     link: '/requested',
   },
   {

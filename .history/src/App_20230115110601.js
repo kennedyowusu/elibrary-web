@@ -6,11 +6,10 @@ import Registration from './Pages/authentication/Registration'
 import Home from './Pages/home/Home'
 import Layout from './appLayout/Layout'
 import NoMatch from './Pages/NoMatch'
-import Dashboard from './Pages/Dashboard'
+// import Dashboard from './Pages/Dashboard'
 import Profile from './Pages/Profile'
 import Details from './Pages/details/Details'
 import Request from './Pages/request/Request'
-import RequestedBooks from './Pages/requestedBooks/RequestedBooks'
 
 function App() {
   return (
@@ -20,7 +19,6 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='about' element={<About />} />
           <Route path='dashboard' element={<Dashboard />} />
-          <Route path='requested' element={<RequestedBooks />} />
           <Route path='profile' element={<Profile />} />
           <Route path='details/:id' element={<Details />} />
           <Route path='request/:id' element={<Request />} />

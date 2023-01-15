@@ -8,13 +8,13 @@ const navLink = [
     link: '/about',
   },
   {
-    name: 'Requested',
+    name: 'Requested Books',
     link: '/requested',
   },
   {
     name: 'Profile',
     link: '/profile',
   },
-];
+]
 
 export default navLink;
