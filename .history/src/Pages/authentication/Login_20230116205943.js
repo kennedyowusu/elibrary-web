@@ -33,7 +33,7 @@ const Login = () => {
       setError('')
       setLoading(true)
       // await login(email, password)
-      const response = await dispatch(loginUser({ email, password }))
+      const response = await dispatch(loginUser({ username, password }))
       console.log('response', response)
 
       navigate('/dashboard')
@@ -61,14 +61,6 @@ const Login = () => {
             <input className="p-2 rounded border mt-8" type="email" name="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
 
             <input className="p-2 rounded border" type="password" name="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
-
-            {/* <Link to='/dashboard' /> */}
-            <Button 
-              title="Login"
-              type="submit"
-              className="bg-[#317773] text-white px-4 py-2 rounded-md mt-4 font-bold"
-            />
-          </form>
 
           <div>
             <p className="text-sm mt-4 text-right pt-3 text-black-500">

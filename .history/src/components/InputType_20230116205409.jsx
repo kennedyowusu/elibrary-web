@@ -8,8 +8,8 @@ const InputType = ({
     className={className}
     type={type}
     name={name}
-    value={value}
-    onChange={onChange}
+    value={name}
+    onChange={() => {}}
     placeholder={placeholder}
   />
 );

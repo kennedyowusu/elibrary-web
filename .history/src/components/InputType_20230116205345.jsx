@@ -2,14 +2,13 @@ import React from 'react';
 
 const InputType = ({
   // eslint-disable-next-line react/prop-types
-  className, placeholder, type, name, value, onChange,
+  className, placeholder, type, name,
 }) => (
   <input
     className={className}
     type={type}
     name={name}
-    value={value}
-    onChange={onChange}
+    value
     placeholder={placeholder}
   />
 );

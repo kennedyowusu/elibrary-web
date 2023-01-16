@@ -8,7 +8,7 @@ const Form = ({ title, handleSubmit, email }) => (
       className='p-2 rounded border mt-8'
       type='email'
       name='email'
-      placeholder='Email'
+      placeholder='Email Address'
       value={email}
       onChange={(e) => setEmail(e.target.value)}
     />

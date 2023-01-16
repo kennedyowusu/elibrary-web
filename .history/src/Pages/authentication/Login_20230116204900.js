@@ -4,7 +4,6 @@ import Button from '../../components/Button';
 import Form from '../../components/Form';
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux'
-import { loginUser } from '../../features/authentication/loginSlice';
 
 const Login = () => {
 
@@ -17,32 +16,15 @@ const Login = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
-
-    // Validate input fields
-    if (!email) {
-      setError('Email is required')
-      return
-    }
-    if (!password) {
-      setError('Password is required')
-      return
-    }
-
-    // Dispatch the loginUser async thunk
-    try {
+    try { 
       setError('')
       setLoading(true)
       // await login(email, password)
-      const response = await dispatch(loginUser({ email, password }))
-      console.log('response', response)
-
       navigate('/dashboard')
-    } catch (error) {
-      console.log('Error while logging in', error)
+    } catch {
       setError('Failed to log in')
     }
-    setLoading(false)
-  }
+    
 
   return (
     <section className="bg-gray-50 min-h-screen flex items-center justify-center">
@@ -53,22 +35,7 @@ const Login = () => {
           </h1>
           <p className="text-lg mt-4">Please login to continue</p>
 
-          {/* <Form title="Login"
-            handleSubmit={handleSubmit}
-          /> */}
-
-          <form action="" className="flex flex-col gap-4" onSubmit={handleSubmit}>
-            <input className="p-2 rounded border mt-8" type="email" name="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
-
-            <input className="p-2 rounded border" type="password" name="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
-
-            {/* <Link to='/dashboard' /> */}
-            <Button 
-              title="Login"
-              type="submit"
-              className="bg-[#317773] text-white px-4 py-2 rounded-md mt-4 font-bold"
-            />
-          </form>
+          <Form title="Login" />
 
           <div>
             <p className="text-sm mt-4 text-right pt-3 text-black-500">

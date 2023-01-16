@@ -21,6 +21,9 @@ const Login = () => {
     // Validate input fields
     if (!email) {
       setError('Email is required')
+      console.log(
+        'Error while logging in',
+      )
       return
     }
     if (!password) {

@@ -6,11 +6,7 @@ const Form = ({ title, handleSubmit, email }) => (
   <form action='' className='flex flex-col gap-4' onSubmit={handleSubmit}>
     <InputType
       className='p-2 rounded border mt-8'
-      type='email'
-      name='email'
-      placeholder='Email'
-      value={email}
-      onChange={(e) => setEmail(e.target.value)}
+      
     />
 
     <InputType

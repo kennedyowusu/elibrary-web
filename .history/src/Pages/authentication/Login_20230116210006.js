@@ -33,7 +33,7 @@ const Login = () => {
       setError('')
       setLoading(true)
       // await login(email, password)
-      const response = await dispatch(loginUser({ email, password }))
+      const response = await dispatch(loginUser({ username, password }))
       console.log('response', response)
 
       navigate('/dashboard')

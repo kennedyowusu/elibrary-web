@@ -2,15 +2,13 @@ import Button from './Button';
 import InputType from './InputType';
 
 // eslint-disable-next-line react/prop-types
-const Form = ({ title, handleSubmit, email }) => (
+const Form = ({ title, handleSubmit }) => (
   <form action='' className='flex flex-col gap-4' onSubmit={handleSubmit}>
     <InputType
       className='p-2 rounded border mt-8'
       type='email'
       name='email'
-      placeholder='Email'
-      value={email}
-      onChange={(e) => setEmail(e.target.value)}
+      placeholder='Email Address'
     />
 
     <InputType
@@ -18,8 +16,7 @@ const Form = ({ title, handleSubmit, email }) => (
       type='password'
       name='password'
       placeholder='Password'
-      value={password}
-      onChange={(e) => setPassword(e.target.value)}
+      value={}
     />
 
     {/* <Link to='/dashboard' />  */}
