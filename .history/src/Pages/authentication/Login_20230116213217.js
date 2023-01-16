@@ -39,7 +39,7 @@ const Login = () => {
     // Dispatch the loginUser async thunk
     try {
       // await login(email, password)
-      const response = dispatch(loginUser({ email, password }))
+      const response = await dispatch(loginUser({ email, password }))
       console.log('response', response)
 
       navigate('/dashboard')
@@ -93,20 +93,12 @@ const Login = () => {
             {/* <Link to='/dashboard' /> */}
             <Button
               title={
-                isLoading ? ( 'Loading...' ) : 'Login'
+                isLoading ? ( <i className='fas fa-spinner fa-spin'></i> ) : 'Login')
               }
               type='submit'
               className='bg-[#317773] text-white px-4 py-2 rounded-md mt-4 font-bold'
-              disabled={ isLoading }
-            />
-
-            {/* <button
-              type='submit'
-              className='bg-[#317773] text-white px-4 py-2 rounded-md mt-4 font-bold'
               disabled={isLoading}
-            >
-              {isLoading ? 'Loading...' : 'Login'}
-            </button> */}
+            />
           </form>
 
           <div>

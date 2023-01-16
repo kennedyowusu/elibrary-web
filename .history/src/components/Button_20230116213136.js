@@ -3,7 +3,7 @@ import React from 'react';
 
 const Button = ({ title, type, className, onClick, disabled }) => (
   <button className={className} type={type} onClick={onClick}
-    disabled={disabled}
+    
   >
     {title}
   </button>

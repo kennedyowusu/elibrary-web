@@ -18,19 +18,14 @@ const Login = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
-    setError(null)
-    setIsLoading(true)
+    setError('')
+    setIsLoading  
 
     // Validate input fields
     if (!validator.isEmail(email)) {
       setError('Invalid email address')
       return
-    } else if (email.length === 0) { 
-      setError('Email is required')
-      return
     }
-
-      
     if (!validator.isLength(password, { min: 8 })) {
       setError('Password must be at least 8 characters long')
       return
@@ -38,17 +33,17 @@ const Login = () => {
 
     // Dispatch the loginUser async thunk
     try {
+      setLoading(true)
       // await login(email, password)
-      const response = dispatch(loginUser({ email, password }))
+      const response = await dispatch(loginUser({ email, password }))
       console.log('response', response)
 
       navigate('/dashboard')
     } catch (error) {
       console.log('Error while logging in', error)
       setError('Failed to log in')
-    } finally {
-      setIsLoading(false)
     }
+    setLoading(false)
   }
 
   return (
@@ -92,21 +87,10 @@ const Login = () => {
             >{error}</p>}
             {/* <Link to='/dashboard' /> */}
             <Button
-              title={
-                isLoading ? ( 'Loading...' ) : 'Login'
-              }
+              title='Login'
               type='submit'
               className='bg-[#317773] text-white px-4 py-2 rounded-md mt-4 font-bold'
-              disabled={ isLoading }
             />
-
-            {/* <button
-              type='submit'
-              className='bg-[#317773] text-white px-4 py-2 rounded-md mt-4 font-bold'
-              disabled={isLoading}
-            >
-              {isLoading ? 'Loading...' : 'Login'}
-            </button> */}
           </form>
 
           <div>

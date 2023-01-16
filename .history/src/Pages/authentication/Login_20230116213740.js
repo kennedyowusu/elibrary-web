@@ -91,14 +91,14 @@ const Login = () => {
               className='text-red-500 text-sm mt-2'
             >{error}</p>}
             {/* <Link to='/dashboard' /> */}
-            <Button
+            {/* <Button
               title={
                 isLoading ? ( 'Loading...' ) : 'Login'
               }
               type='submit'
               className='bg-[#317773] text-white px-4 py-2 rounded-md mt-4 font-bold'
               disabled={ isLoading }
-            />
+            /> */}
 
             {/* <button
               type='submit'

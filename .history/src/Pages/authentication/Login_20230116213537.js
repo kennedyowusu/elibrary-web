@@ -99,14 +99,6 @@ const Login = () => {
               className='bg-[#317773] text-white px-4 py-2 rounded-md mt-4 font-bold'
               disabled={ isLoading }
             />
-
-            {/* <button
-              type='submit'
-              className='bg-[#317773] text-white px-4 py-2 rounded-md mt-4 font-bold'
-              disabled={isLoading}
-            >
-              {isLoading ? 'Loading...' : 'Login'}
-            </button> */}
           </form>
 
           <div>
