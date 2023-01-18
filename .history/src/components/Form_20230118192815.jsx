@@ -1,6 +1,7 @@
 import Button from './Button';
 import InputType from './InputType';
 
+
 const Form = ({ password, handleSubmit, email, title }) => (
   <form action='' className='flex flex-col gap-4' onSubmit={handleSubmit}>
     <InputType

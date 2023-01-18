@@ -1,7 +1,8 @@
 import Button from './Button';
 import InputType from './InputType';
 
-const Form = ({ password, handleSubmit, email, title }) => (
+// eslint-disable-next-line react/prop-types
+const Form = ({ password, handleSubmit, email }) => (
   <form action='' className='flex flex-col gap-4' onSubmit={handleSubmit}>
     <InputType
       className='p-2 rounded border mt-8'
