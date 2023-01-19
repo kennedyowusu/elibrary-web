@@ -31,7 +31,7 @@ const initialState = {
   isLoading: false,
   token: null,
   error: null,
-  user: null,
+  error: null,
   errorMessage: null,
 };
 
